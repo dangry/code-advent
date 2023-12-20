@@ -1,7 +1,6 @@
 const fs = require("fs");
 
-// Replace 'path/to/your/file.txt' with the path to your text file
-const filePath = "./data.txt";
+const filePath = "./day/1/data.txt";
 
 fs.readFile(filePath, "utf8", (err, data) => {
   if (err) {
